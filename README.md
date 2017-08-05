@@ -45,5 +45,7 @@ If you opt to hide connected devices (that's the point of this app after all), t
 
 ## Uninstallation
 To fully uninstall, delete the LaunchDaemon with the following terminal command:
+
     sudo rm /Library/LaunchDaemons/com.GroundControl.DisableAppleUSBNCM.plist
+
 Then reboot your Mac.
