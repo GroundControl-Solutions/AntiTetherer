@@ -77,7 +77,7 @@ if isEnabled then
 	
 else
 	
-	display dialog "iOS devices are currently HIDDEN fromthe Network Pref pane." buttons {"Keep Hiding", "Show"} default button 1 with icon note
+	display dialog "iOS devices are currently HIDDEN from the Network Pref pane." buttons {"Keep Hiding", "Show"} default button 1 with icon note
 	
 	if the button returned of the result is "Show" then
 		do shell script "sudo launchctl disable system/" & serviceName with administrator privileges
